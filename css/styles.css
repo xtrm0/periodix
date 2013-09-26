@@ -3,9 +3,48 @@ h1 {
 }
 
 body {
+    font-family: Arial;
+    font-size: 62.5%;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    text-align: center;
+    color: #666;
     
 }
 
 p {
     
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    background: #F0F8FF;
+    border-radius: 10px 10px 10px 10px; 
+    -moz-border-radius: 10px 10px 10px 10px; 
+    -webkit-border-radius: 10px 10px 10px 10px; 
+    border: 0px solid #800000;
+    float: left;
+    margin: 2px 2px 2px 2px;
+}
+
+.blank {
+    visibility:hidden;
+}
+
+.table {
+    
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }

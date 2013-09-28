@@ -26,9 +26,18 @@ p {
     
 }
 
+.table {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .element {
+    position: relative;
+    cursor: pointer;
     width: 50px;
     height: 50px;
+    overflow: hidden;
     background: #F0F8FF;
     border-radius: 10px 10px 10px 10px; 
     -moz-border-radius: 10px 10px 10px 10px; 
@@ -42,9 +51,63 @@ p {
     visibility:hidden;
 }
 
-.table {
-    
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
+.element > .ename {
+    font: 7.5px arial,sans-serif;
+    vertical-align: bottom;
+    position: absolute;
+    width: 50px;
+    height: 14.5px;
+    top: 30.5px;
+    left: 50%;	
+    margin-left: -25px;	
+}
+
+.element > .eelectronicconfig {
+    font: 6px arial,sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 50px;	
+    height: 50px;		
+    left: 50%;	
+    margin-left: -25px;	
+    top: 0.5px;
+}
+
+.element > .esymbol {
+    font: 23px arial,sans-serif;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 50px;	
+    height: 45px;		
+    left: 50%;	
+    margin-left: -25px;	
+    margin-top: 7px;
+}
+
+.element > .eatomicnumber {
+    font: 8px "Courier New", Courier, monospace;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0.5px 1px 0.5px 1px;
+    width: 14px;
+    background-color: #44aadd;
+    color: #ffffff;
+    border-radius: 0px 4px 0px 0px; 
+    -moz-border-radius: 0px 4px 0px 0px; 
+    -webkit-border-radius: 0px 4px 0px 0px; 
+    border: 0px solid #800000;
+}
+
+.element > .erelativeweight {
+    font: 8px "Courier New", Courier, monospace;
+    letter-spacing: -1px;
+    position: absolute;
+    text-align: right;
+    width: 31px;
+    height: 9px;
+    bottom: 0px;
+    left: 14px;
 }

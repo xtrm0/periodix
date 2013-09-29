@@ -1,14 +1,11 @@
-/*
- * Auto-generated content from the Brackets New Project extension.
- */
-
-/*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50 */
-/*global $, window, document */
-
+/*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50, sloppy: true */
+/*global $, window, document, cc, resetelements */
 // Simple jQuery event handler
 $(document).ready(function () {
     "use strict";
-    $("#clickMe").click(function (e) {
-        alert("hello world!");
-    });
+    cc(".blocks", "#55bbee");
+    cc(".blockp", "#19BA19");
+    cc(".blockd", "#E6E600");
+    cc(".blockf", "#EB3333");
+    //resetelements();
 });
